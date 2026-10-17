@@ -43,7 +43,7 @@ export const SITE: SiteConfig = {
   "products": {
     "eyebrow": "The flavours",
     "title": "Our flavours",
-    "lead": "All 44 of our flavours. Search for a favourite or filter by type, pick a size, and add it to your order.",
+    "lead": "All 44 of our flavours, as a single block (R10), a Twin Pack (R22) or a 100g packet (R45). Search for a favourite or filter by type, and add it to your order.",
     "items": [
       {
         "id": "traditional-caramel",
@@ -54,11 +54,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Traditional Caramel fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ],
@@ -73,11 +77,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A tray of Gourmet Fudge packets",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -91,11 +99,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Bar-One Toffee Dream fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -109,11 +121,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Bubbly Champagne fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -127,11 +143,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Dark Sjoklat & Orange Zest fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -145,11 +165,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Butterscotch Toffee fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -163,11 +187,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Cape Fynbos Honey fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -181,11 +209,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Caramel Roasted Pecan Nuts fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -199,11 +231,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Cherries & Dark Swiss Sjoklat fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -217,11 +253,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Chipotle Chilli Swiss Sjoklat fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -235,11 +275,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Clotted Cream fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -253,11 +297,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A tray of Gourmet Fudge packets",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -271,7 +319,7 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Creamy Coconut-Ice fudge",
         "options": [
           {
-            "label": "",
+            "label": "100g",
             "price": 45
           }
         ]
@@ -285,11 +333,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Creme Brulee Dulce De Leche fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -303,11 +355,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Crushed Kalahari Salt fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -321,11 +377,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Double Sjoklat Cookie fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -339,11 +399,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Italian Tiramisu fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -357,11 +421,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Cappuccino Double Shot Espresso fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -375,11 +443,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Karoo Milktart fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -393,11 +465,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Lindt Brownie Choc Chip fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -411,11 +487,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Liquorice Twist fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -429,11 +509,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A tray of Gourmet Fudge packets",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -447,11 +531,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Millionaires Toffee Shortbread fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -465,11 +553,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Milo & Whispers fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -483,11 +575,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Mint Crisp fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -501,11 +597,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Mocha Coffee Belgian Sjoklat fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -519,11 +619,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Smooth Hazelnut Praline fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -537,11 +641,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Biscoff Caramel Crunch fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -555,11 +663,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Raspberry Ripple fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -573,11 +685,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Rosepetals Turkish Delight fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -591,11 +707,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Salted Macadamia Caramels fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -609,11 +729,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Ferrero Rocher Praline fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -627,11 +751,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Sea Salt Toffee fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -645,11 +773,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Smooth Peanut Caramels fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -663,11 +795,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Strawberries & Cream fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -681,11 +817,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Swiss Sjoklat 69% fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -699,11 +839,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Whiskey & Espresso fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -717,11 +861,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Fudge Truffles & White Belgian Choc fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -735,11 +883,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Milky Bar Condensed Milk Cookie fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -753,11 +905,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A tray of Gourmet Fudge packets",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -771,7 +927,7 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Mallow Whip Rocky Road fudge",
         "options": [
           {
-            "label": "",
+            "label": "100g",
             "price": 45
           }
         ]
@@ -785,7 +941,7 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Belgian Sjoklat Gourmet Fudge Balls fudge",
         "options": [
           {
-            "label": "",
+            "label": "100g",
             "price": 45
           }
         ]
@@ -799,11 +955,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Snickers Peanut Toffee Caramels fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -817,11 +977,15 @@ export const SITE: SiteConfig = {
         "imageAlt": "A packet of Amarula Cream fudge",
         "options": [
           {
-            "label": "Single block",
+            "label": "Single",
             "price": 10
           },
           {
-            "label": "Packet",
+            "label": "Twin Pack",
+            "price": 22
+          },
+          {
+            "label": "100g",
             "price": 45
           }
         ]
@@ -876,7 +1040,7 @@ export const SITE: SiteConfig = {
     ],
     "notes": [
       "Delivery is R99 per order, added when we confirm.",
-      "Each packet is one flavour; flavours can’t be mixed in a bag.",
+      "Each Twin Pack or 100g packet is one flavour; flavours can’t be mixed in a bag.",
       "All fudge contains dairy and soya. Ask us about other allergens."
     ]
   },
