@@ -1,0 +1,36 @@
+/* Generated from sites/gourmet-fudge/site.json. */
+:root {
+  --bg: #fbf7f5;
+  --bg-alt: #f6ecee;
+  --surface: #ffffff;
+  --ink: #1c181b;
+  --muted: #6a6067;
+  --line: #ebdfe3;
+  --accent: #e77fc3;
+  --accent-strong: #b9408f;
+  --accent-ink: #1c181b;
+  --accent-soft: #fbe3f2;
+  --accent-on-dark: #f4a9db;
+  --dark: #161315;
+  --dark-ink: #ffffff;
+  --error: #b42318;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+  --display-weight: 700;
+  --display-tracking: -0.01em;
+  --radius: 18px;
+  --button-radius: 999px;
+  --hero-position: center;
+  --logo-ratio: 2.99;
+  --product-position: center;
+  --topbar-bg: #000000;
+  --topbar-ink: #ffffff;
+  --topbar-line: rgb(255 255 255 / 0.18);
+  --product-fit: contain;
+  --product-bg: #ffffff;
+  --logo-bg: transparent;
+  --logo-pad: 0;
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --max-width: 1200px;
+  color-scheme: light;
+}
