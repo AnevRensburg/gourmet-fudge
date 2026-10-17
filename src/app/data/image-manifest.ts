@@ -7,14 +7,6 @@ export interface ImageEntry {
 }
 
 export const IMAGE_MANIFEST = {
-  "bar-one": {
-    "width": 600,
-    "height": 600,
-    "widths": [
-      480,
-      600
-    ]
-  },
   "box": {
     "width": 345,
     "height": 258,
@@ -22,7 +14,7 @@ export const IMAGE_MANIFEST = {
       345
     ]
   },
-  "champagne": {
+  "f-amarula-cream": {
     "width": 600,
     "height": 600,
     "widths": [
@@ -30,7 +22,7 @@ export const IMAGE_MANIFEST = {
       600
     ]
   },
-  "cherry": {
+  "f-bar-one-toffee-dream": {
     "width": 600,
     "height": 600,
     "widths": [
@@ -38,7 +30,305 @@ export const IMAGE_MANIFEST = {
       600
     ]
   },
-  "fynbos": {
+  "f-belgian-sjoklat-gourmet-fudge-balls": {
+    "width": 1600,
+    "height": 1600,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "f-biscoff-caramel-crunch": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-bubbly-champagne": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-butterscotch-toffee": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-cape-fynbos-honey": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-cappuccino-double-shot-espresso": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-caramel-roasted-pecan-nuts": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-cherries-dark-swiss-sjoklat": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-chipotle-chilli-swiss-sjoklat": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-clotted-cream": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-creamy-coconut-ice": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-creme-brulee-dulce-de-leche": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-crushed-kalahari-salt": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-dark-sjoklat-orange-zest": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-double-sjoklat-cookie": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-ferrero-rocher-praline": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-fudge-truffles-white-belgian-choc": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-italian-tiramisu": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-karoo-milktart": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-lindt-brownie-choc-chip": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-liquorice-twist": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-mallow-whip-rocky-road": {
+    "width": 1600,
+    "height": 1600,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "f-milky-bar-condensed-milk-cookie": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-millionaires-toffee-shortbread": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-milo-whispers": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-mint-crisp": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-mocha-coffee-belgian-sjoklat": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-raspberry-ripple": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-rosepetals-turkish-delight": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-salted-macadamia-caramels": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-sea-salt-toffee": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-smooth-hazelnut-praline": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-smooth-peanut-caramels": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-snickers-peanut-toffee-caramels": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-strawberries-cream": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-swiss-sjoklat-69": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-traditional-caramel": {
+    "width": 600,
+    "height": 600,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "f-whiskey-espresso": {
     "width": 600,
     "height": 600,
     "widths": [
@@ -54,44 +344,12 @@ export const IMAGE_MANIFEST = {
       320
     ]
   },
-  "orange": {
-    "width": 600,
-    "height": 600,
-    "widths": [
-      480,
-      600
-    ]
-  },
-  "pecan": {
-    "width": 600,
-    "height": 600,
-    "widths": [
-      480,
-      600
-    ]
-  },
-  "salted-chilli": {
-    "width": 600,
-    "height": 600,
-    "widths": [
-      480,
-      600
-    ]
-  },
   "story": {
     "width": 642,
     "height": 553,
     "widths": [
       480,
       642
-    ]
-  },
-  "traditional": {
-    "width": 600,
-    "height": 600,
-    "widths": [
-      480,
-      600
     ]
   },
   "tray": {

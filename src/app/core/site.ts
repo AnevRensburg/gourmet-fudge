@@ -31,7 +31,7 @@ export const SITE: SiteConfig = {
     },
     {
       "icon": "star",
-      "title": "50 flavours",
+      "title": "44 flavours",
       "text": "From Traditional Caramel to Bubbly Champagne."
     },
     {
@@ -42,16 +42,35 @@ export const SITE: SiteConfig = {
   ],
   "products": {
     "eyebrow": "The flavours",
-    "title": "Customer favourites",
-    "lead": "Eight of our fifty flavours. Pick a size, add it to your order and send it to us. Ask in the message if you’re after a flavour that isn’t shown here.",
+    "title": "Our flavours",
+    "lead": "All 44 of our flavours. Search for a favourite or filter by type, pick a size, and add it to your order.",
     "items": [
       {
-        "id": "traditional",
+        "id": "traditional-caramel",
         "name": "Traditional Caramel",
+        "category": "Classic caramel",
         "description": "The original. Butter and sugar cooked low and slow into smooth, creamy caramel fudge.",
-        "image": "traditional",
+        "image": "f-traditional-caramel",
         "imageAlt": "A packet of Traditional Caramel fudge",
-        "badge": "Bestseller",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ],
+        "badge": "Bestseller"
+      },
+      {
+        "id": "salted-chilli-caramello-milky-bar",
+        "name": "Salted Chilli Caramello Milky Bar",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "tray",
+        "imageAlt": "A tray of Gourmet Fudge packets",
         "options": [
           {
             "label": "Single block",
@@ -64,27 +83,11 @@ export const SITE: SiteConfig = {
         ]
       },
       {
-        "id": "amarula",
-        "name": "Amarula Cream",
-        "description": "Creamy fudge with the warmth of Amarula. Contains alcohol.",
-        "image": "salted-chilli",
-        "imageAlt": "A packet of Amarula Cream fudge",
-        "options": [
-          {
-            "label": "Single block",
-            "price": 10
-          },
-          {
-            "label": "Packet",
-            "price": 45
-          }
-        ]
-      },
-      {
-        "id": "bar-one",
+        "id": "bar-one-toffee-dream",
         "name": "Bar-One Toffee Dream",
+        "category": "Chocolate & treats",
         "description": "Caramel fudge loaded with chocolate and nougat. A sweet tooth’s dream.",
-        "image": "bar-one",
+        "image": "f-bar-one-toffee-dream",
         "imageAlt": "A packet of Bar-One Toffee Dream fudge",
         "options": [
           {
@@ -98,10 +101,11 @@ export const SITE: SiteConfig = {
         ]
       },
       {
-        "id": "champagne",
+        "id": "bubbly-champagne",
         "name": "Bubbly Champagne",
+        "category": "Coffee & liqueur",
         "description": "Light, celebratory and a little bit fancy. Contains alcohol.",
-        "image": "champagne",
+        "image": "f-bubbly-champagne",
         "imageAlt": "A packet of Bubbly Champagne fudge",
         "options": [
           {
@@ -115,11 +119,12 @@ export const SITE: SiteConfig = {
         ]
       },
       {
-        "id": "orange",
+        "id": "dark-sjoklat-orange-zest",
         "name": "Dark Sjoklat & Orange Zest",
+        "category": "Fruity & fresh",
         "description": "Rich dark chocolate fudge brightened with orange zest.",
-        "image": "orange",
-        "imageAlt": "A packet of dark chocolate and orange fudge",
+        "image": "f-dark-sjoklat-orange-zest",
+        "imageAlt": "A packet of Dark Sjoklat & Orange Zest fudge",
         "options": [
           {
             "label": "Single block",
@@ -132,10 +137,29 @@ export const SITE: SiteConfig = {
         ]
       },
       {
-        "id": "fynbos",
+        "id": "butterscotch-toffee",
+        "name": "Butterscotch Toffee",
+        "category": "Classic caramel",
+        "description": "",
+        "image": "f-butterscotch-toffee",
+        "imageAlt": "A packet of Butterscotch Toffee fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "cape-fynbos-honey",
         "name": "Cape Fynbos Honey",
+        "category": "Fruity & fresh",
         "description": "Golden fudge sweetened with Cape fynbos honey.",
-        "image": "fynbos",
+        "image": "f-cape-fynbos-honey",
         "imageAlt": "A packet of Cape Fynbos Honey fudge",
         "options": [
           {
@@ -149,11 +173,12 @@ export const SITE: SiteConfig = {
         ]
       },
       {
-        "id": "pecan",
+        "id": "caramel-roasted-pecan-nuts",
         "name": "Caramel Roasted Pecan Nuts",
+        "category": "Nutty",
         "description": "Caramel fudge with crunchy roasted pecans in every bite.",
-        "image": "pecan",
-        "imageAlt": "A packet of caramel fudge with roasted pecan nuts",
+        "image": "f-caramel-roasted-pecan-nuts",
+        "imageAlt": "A packet of Caramel Roasted Pecan Nuts fudge",
         "options": [
           {
             "label": "Single block",
@@ -166,11 +191,630 @@ export const SITE: SiteConfig = {
         ]
       },
       {
-        "id": "cherry",
+        "id": "cherries-dark-swiss-sjoklat",
         "name": "Cherries & Dark Swiss Sjoklat",
+        "category": "Fruity & fresh",
         "description": "Dark Swiss chocolate fudge studded with cherries.",
-        "image": "cherry",
-        "imageAlt": "A packet of cherry and dark chocolate fudge",
+        "image": "f-cherries-dark-swiss-sjoklat",
+        "imageAlt": "A packet of Cherries & Dark Swiss Sjoklat fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "chipotle-chilli-swiss-sjoklat",
+        "name": "Chipotle Chilli Swiss Sjoklat",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-chipotle-chilli-swiss-sjoklat",
+        "imageAlt": "A packet of Chipotle Chilli Swiss Sjoklat fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "clotted-cream",
+        "name": "Clotted Cream",
+        "category": "Classic caramel",
+        "description": "",
+        "image": "f-clotted-cream",
+        "imageAlt": "A packet of Clotted Cream fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "cookies-cream",
+        "name": "Cookies & Cream",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "tray",
+        "imageAlt": "A tray of Gourmet Fudge packets",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "creamy-coconut-ice",
+        "name": "Creamy Coconut-Ice",
+        "category": "Fruity & fresh",
+        "description": "",
+        "image": "f-creamy-coconut-ice",
+        "imageAlt": "A packet of Creamy Coconut-Ice fudge",
+        "options": [
+          {
+            "label": "",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "creme-brulee-dulce-de-leche",
+        "name": "Creme Brulee Dulce De Leche",
+        "category": "Classic caramel",
+        "description": "",
+        "image": "f-creme-brulee-dulce-de-leche",
+        "imageAlt": "A packet of Creme Brulee Dulce De Leche fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "crushed-kalahari-salt",
+        "name": "Crushed Kalahari Salt",
+        "category": "Classic caramel",
+        "description": "",
+        "image": "f-crushed-kalahari-salt",
+        "imageAlt": "A packet of Crushed Kalahari Salt fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "double-sjoklat-cookie",
+        "name": "Double Sjoklat Cookie",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-double-sjoklat-cookie",
+        "imageAlt": "A packet of Double Sjoklat Cookie fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "italian-tiramisu",
+        "name": "Italian Tiramisu",
+        "category": "Coffee & liqueur",
+        "description": "Contains alcohol.",
+        "image": "f-italian-tiramisu",
+        "imageAlt": "A packet of Italian Tiramisu fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "cappuccino-double-shot-espresso",
+        "name": "Cappuccino Double Shot Espresso",
+        "category": "Coffee & liqueur",
+        "description": "",
+        "image": "f-cappuccino-double-shot-espresso",
+        "imageAlt": "A packet of Cappuccino Double Shot Espresso fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "karoo-milktart",
+        "name": "Karoo Milktart",
+        "category": "Classic caramel",
+        "description": "",
+        "image": "f-karoo-milktart",
+        "imageAlt": "A packet of Karoo Milktart fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "lindt-brownie-choc-chip",
+        "name": "Lindt Brownie Choc Chip",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-lindt-brownie-choc-chip",
+        "imageAlt": "A packet of Lindt Brownie Choc Chip fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "liquorice-twist",
+        "name": "Liquorice Twist",
+        "category": "Fruity & fresh",
+        "description": "",
+        "image": "f-liquorice-twist",
+        "imageAlt": "A packet of Liquorice Twist fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "milky-bar-dream-chuckles",
+        "name": "Milky Bar Dream Chuckles",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "tray",
+        "imageAlt": "A tray of Gourmet Fudge packets",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "millionaires-toffee-shortbread",
+        "name": "Millionaires Toffee Shortbread",
+        "category": "Classic caramel",
+        "description": "",
+        "image": "f-millionaires-toffee-shortbread",
+        "imageAlt": "A packet of Millionaires Toffee Shortbread fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "milo-whispers",
+        "name": "Milo & Whispers",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-milo-whispers",
+        "imageAlt": "A packet of Milo & Whispers fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "mint-crisp",
+        "name": "Mint Crisp",
+        "category": "Fruity & fresh",
+        "description": "",
+        "image": "f-mint-crisp",
+        "imageAlt": "A packet of Mint Crisp fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "mocha-coffee-belgian-sjoklat",
+        "name": "Mocha Coffee Belgian Sjoklat",
+        "category": "Coffee & liqueur",
+        "description": "",
+        "image": "f-mocha-coffee-belgian-sjoklat",
+        "imageAlt": "A packet of Mocha Coffee Belgian Sjoklat fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "smooth-hazelnut-praline",
+        "name": "Smooth Hazelnut Praline",
+        "category": "Nutty",
+        "description": "",
+        "image": "f-smooth-hazelnut-praline",
+        "imageAlt": "A packet of Smooth Hazelnut Praline fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "biscoff-caramel-crunch",
+        "name": "Biscoff Caramel Crunch",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-biscoff-caramel-crunch",
+        "imageAlt": "A packet of Biscoff Caramel Crunch fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "raspberry-ripple",
+        "name": "Raspberry Ripple",
+        "category": "Fruity & fresh",
+        "description": "",
+        "image": "f-raspberry-ripple",
+        "imageAlt": "A packet of Raspberry Ripple fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "rosepetals-turkish-delight",
+        "name": "Rosepetals Turkish Delight",
+        "category": "Fruity & fresh",
+        "description": "",
+        "image": "f-rosepetals-turkish-delight",
+        "imageAlt": "A packet of Rosepetals Turkish Delight fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "salted-macadamia-caramels",
+        "name": "Salted Macadamia Caramels",
+        "category": "Nutty",
+        "description": "",
+        "image": "f-salted-macadamia-caramels",
+        "imageAlt": "A packet of Salted Macadamia Caramels fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "ferrero-rocher-praline",
+        "name": "Ferrero Rocher Praline",
+        "category": "Nutty",
+        "description": "",
+        "image": "f-ferrero-rocher-praline",
+        "imageAlt": "A packet of Ferrero Rocher Praline fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "sea-salt-toffee",
+        "name": "Sea Salt Toffee",
+        "category": "Classic caramel",
+        "description": "",
+        "image": "f-sea-salt-toffee",
+        "imageAlt": "A packet of Sea Salt Toffee fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "smooth-peanut-caramels",
+        "name": "Smooth Peanut Caramels",
+        "category": "Nutty",
+        "description": "",
+        "image": "f-smooth-peanut-caramels",
+        "imageAlt": "A packet of Smooth Peanut Caramels fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "strawberries-cream",
+        "name": "Strawberries & Cream",
+        "category": "Fruity & fresh",
+        "description": "",
+        "image": "f-strawberries-cream",
+        "imageAlt": "A packet of Strawberries & Cream fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "swiss-sjoklat-69",
+        "name": "Swiss Sjoklat 69%",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-swiss-sjoklat-69",
+        "imageAlt": "A packet of Swiss Sjoklat 69% fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "whiskey-espresso",
+        "name": "Whiskey & Espresso",
+        "category": "Coffee & liqueur",
+        "description": "Contains alcohol.",
+        "image": "f-whiskey-espresso",
+        "imageAlt": "A packet of Whiskey & Espresso fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "fudge-truffles-white-belgian-choc",
+        "name": "Fudge Truffles & White Belgian Choc",
+        "category": "Chocolate & treats",
+        "description": "Contains alcohol.",
+        "image": "f-fudge-truffles-white-belgian-choc",
+        "imageAlt": "A packet of Fudge Truffles & White Belgian Choc fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "milky-bar-condensed-milk-cookie",
+        "name": "Milky Bar Condensed Milk Cookie",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-milky-bar-condensed-milk-cookie",
+        "imageAlt": "A packet of Milky Bar Condensed Milk Cookie fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "pistachio-milky-bar-cream",
+        "name": "Pistachio Milky Bar Cream",
+        "category": "Nutty",
+        "description": "",
+        "image": "tray",
+        "imageAlt": "A tray of Gourmet Fudge packets",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "mallow-whip-rocky-road",
+        "name": "Mallow Whip Rocky Road",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-mallow-whip-rocky-road",
+        "imageAlt": "A packet of Mallow Whip Rocky Road fudge",
+        "options": [
+          {
+            "label": "",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "belgian-sjoklat-gourmet-fudge-balls",
+        "name": "Belgian Sjoklat Gourmet Fudge Balls",
+        "category": "Chocolate & treats",
+        "description": "",
+        "image": "f-belgian-sjoklat-gourmet-fudge-balls",
+        "imageAlt": "A packet of Belgian Sjoklat Gourmet Fudge Balls fudge",
+        "options": [
+          {
+            "label": "",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "snickers-peanut-toffee-caramels",
+        "name": "Snickers Peanut Toffee Caramels",
+        "category": "Nutty",
+        "description": "",
+        "image": "f-snickers-peanut-toffee-caramels",
+        "imageAlt": "A packet of Snickers Peanut Toffee Caramels fudge",
+        "options": [
+          {
+            "label": "Single block",
+            "price": 10
+          },
+          {
+            "label": "Packet",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "amarula-cream",
+        "name": "Amarula Cream",
+        "category": "Coffee & liqueur",
+        "description": "Creamy fudge with the warmth of Amarula. Contains alcohol.",
+        "image": "f-amarula-cream",
+        "imageAlt": "A packet of Amarula Cream fudge",
         "options": [
           {
             "label": "Single block",
@@ -201,15 +845,15 @@ export const SITE: SiteConfig = {
       "alt": "An open Gourmet Fudge gift box with a block of fudge inside"
     },
     {
-      "image": "fynbos",
+      "image": "f-cape-fynbos-honey",
       "alt": "Cape Fynbos Honey fudge"
     },
     {
-      "image": "orange",
+      "image": "f-dark-sjoklat-orange-zest",
       "alt": "Dark chocolate and orange fudge"
     },
     {
-      "image": "cherry",
+      "image": "f-cherries-dark-swiss-sjoklat",
       "alt": "Cherry and dark chocolate fudge"
     }
   ],
@@ -279,5 +923,6 @@ export const SITE: SiteConfig = {
       }
     ]
   },
+  "logoStyle": "wordmark",
   "slug": "gourmet-fudge"
 };
